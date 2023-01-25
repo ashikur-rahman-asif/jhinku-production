@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: '#FECC02',
+                        black: '#131313',
+                        grey: '#4E4E4E '
+                    },
+                    fontFamily: {
+                        bebas: ['Bebas Neue', 'cursive'],
+                        montserrart: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Jhinku Production</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- nav bar  -->
+        <nav class="bg-white h-20 font-bebas fixed top-0 left-0 right-0">
+            <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto">
+                <h1 class=" text-2xl">Jhinku Production</h1>
+                <ul class="flex text-lg gap-8">
+                    <li>About us</li>
+                    <li>Our Movies</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </nav>
+        <!-- header  -->
+        <section class="bg-red-200 bg-[url('./images/banner.jpg')] bg-cover h-screen pt-20">
+            <!-- <div class="h-full bg-red-200 w-full max-w-7xl mx-auto px-5 flex items-center"> -->
+            <div class="h-full  w-full max-w-7xl mx-auto px-5 flex items-center">
+                <div class="font-bebas">
+                    <h2 class="text-white text-lg uppercase">Movie production studio</h2>
+                    <h1 class="text-7xl text-white uppercase mb-2">Films MAde to <br><span
+                            class="text-7xl text-yellow">Perfection</span></h1>
+                    <p class="font-montserrart max-w-lg mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                        elit tellus,
+                        luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                        <button class="font-bebas border-2 py-2 px-3 text-white text-lg hover:bg-yellow hover:border-yellow hover:text-black transition-all">Discover me</button>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+
+</body>
+
+</html>
